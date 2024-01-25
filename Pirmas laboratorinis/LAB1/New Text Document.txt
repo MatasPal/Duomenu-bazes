@@ -1,0 +1,6 @@
+CREATE TABLE DARBO_SUTARTYS(	Sutarties_numeris int NOT NULL,	Data date NOT NULL,	Etatas double precision NOT NULL,	
+Fiksuota_alga int NOT NULL,	Dokumentas NOT NULL,	fk_DARBUOTOJASAsmens_kodas int NOT NULL,	
+fk_DARBUOTOJASBanko_saskaita varchar (255) NOT NULL,
+PRIMARY KEY(Sutarties_numeris),	UNIQUE(fk_DARBUOTOJASAsmens_kodas, fk_DARBUOTOJASBanko_saskaita),	
+FOREIGN KEY(Dokumentas) REFERENCES DOKUMENTAI (id_DOKUMENTAS),	
+CONSTRAINT pasiraso FOREIGN KEY(fk_DARBUOTOJASAsmens_kodas, fk_DARBUOTOJASBanko_saskaita) REFERENCES DARBUOTOJAI (Asmens_kodas, Banko_saskaita));
