@@ -1,22 +1,22 @@
-# Duomenų bazės
+# Databases
 
-## Aprašymas
+## Description
 
-Šis repozitorija skirta **Duomenų bazių** modulio laboratoriniams darbams, atliktiems KTU studijų metu. Šiame modulyje nagrinėjamos duomenų bazių kūrimo, valdymo ir užklausų sudarymo koncepcijos, naudojant SQL bei UML diagramų braižymą duomenų bazėms modeliuoti.
+This repository is dedicated to the **Databases** module's laboratory work, completed during studies at KTU. This module covers the concepts of database creation, management, and query formulation using SQL, as well as UML diagramming for modeling databases.
 
-## Turinys
+## Content
 
-Laboratoriniuose darbuose nagrinėjamos šios temos:
+The laboratory work covers the following topics:
 
-- **Duomenų bazės kūrimas ir valdymas su SQL**
-- **Užklausų kūrimas (CRUD operacijos, jungtys, grupavimas, filtravimas)**
-- **UML diagramos duomenų bazėms modeliuoti**
-- **Duomenų bazės integracija su programomis**
+- **Database creation and management with SQL**
+- **Query creation (CRUD operations, joins, grouping, filtering)**
+- **UML diagrams for modeling databases**
+- **Database integration with applications**
 
-## Naudotos technologijos
+## Technologies Used
 
-Laboratoriniai darbai buvo atlikti naudojant šias technologijas:
+The laboratory work was conducted using the following technologies:
 
-- **SQL:** Naudotas duomenų bazių kūrimui ir valdymui.
-- **Magic Systems of Systems Architect:** UML diagramų braižymui ir duomenų bazės struktūros modeliavimui.
-- **C#:** Naudotas 2 ir 3 laboratoriniams darbams, integruojant duomenų bazes su C# programomis.
+- **SQL:** Used for creating and managing databases.
+- **Magic Systems of Systems Architect:** For UML diagramming and modeling database structures.
+- **C#:** Used in the 2nd and 3rd laboratory works for integrating databases with C# applications.
